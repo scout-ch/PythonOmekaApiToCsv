@@ -6,12 +6,21 @@ This repo includes a Python script which allows users to generate CSV files of t
 Instructions
 ============
 
+### Prerequisites
 Download the ZIP of the the script from above, or from [here](https://github.com/omeka/PythonOmekaApiToCsv/archive/master.zip)
 
 (Alternatively, you can clone this repository.)
 
 Unzip the package somewhere on your local computer.
 
+Install [python](https://www.python.org/downloads/) on your system
+
+#### Windows
+install pyreadline using `pip install pyreadline`
+#### Linux / Unix
+Edit omekacsv.py with an editor and change "pyreadline" to "readline"
+
+### Execute the script
 Open a command-line interface, and navigate to the newly created directory (/PythonOmekaApiToCsv).
 
 Execute the script by entering the following command:
