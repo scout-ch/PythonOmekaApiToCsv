@@ -8,7 +8,10 @@ import csv
 import json
 import math
 import time
-import readline
+# for Windows use pyreadline
+import pyreadline
+# for unix/linux use readline
+# import readline
 
 try:
     from urllib.parse import urlencode
