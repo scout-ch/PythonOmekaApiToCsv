@@ -141,7 +141,7 @@ for resource in resources:
         for row in csv_rows:
             c.writerow({k:v.encode('utf-8', 'replace') for k,v in row.items() if isinstance(v, unicode)})
     else:
-        o = open(resource + '_output.csv', 'w', encoding = 'utf-8')
+        o = open(resource + '_output.csv', 'w', newline='', encoding = 'utf-8')
         c = csv.DictWriter(o, fields, extrasaction='ignore')
         c.writeheader()
         for row in csv_rows:
